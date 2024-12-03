@@ -1,0 +1,191 @@
+/*Cambios universales*/
+
+* {
+	 font-family: "Quicksand", fantasy;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
+}
+
+/*Banner de presentacion*/
+
+header {
+	background-image: url(SH/bnnr.jpeg);
+	color: #ffffff;
+	text-shadow: 0 0 9px #000000;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 3vw 0;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+/*Barra de Naavegacion*/
+
+.navbar {
+	display: flex;
+	top: 0;
+	padding: 1vw;
+	background-image: linear-gradient(to left, yellow, red);
+	z-index: 600;
+	position: sticky;
+	border-bottom: solid 5px #f8f8f8;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 24px;
+	padding: 15px;
+	height: 100%;
+	transition: 500ms;
+}
+
+.menu a:hover {
+	transition: 500ms;
+	border-left: 1px solid #222222;
+	border-right: 1px solid #222222;
+	color: #000000;
+}
+
+/*Sub-parrafos*/
+
+h2 {
+	color: #f8f8f8;
+	font-size: 45px;
+}
+
+
+/*Historia Cechini*/
+
+.historia {
+	background-color: #ffffff;
+	padding: 1vw;	
+	border-radius: 0vw 1.5vw 1.5vw 0vw;
+	width: 90%;
+	display: inline-flex;
+	text-align: justify;
+}
+
+.history a {
+	text-decoration: none;
+	color: #ff6969;
+}
+
+.historia img {
+	border-radius: 0 1vw 1vw 0;
+	padding-left: 10px;
+}
+
+/*Linea de tiempo*/
+
+.linea-tiempo {
+	background-color: #ffffff;
+	margin: 20px auto;
+	flex-direction: row;
+	width: 90%;
+	border-radius: 1vw;
+	padding: 1vw;
+	display: block;
+}
+
+.lintemp {
+	flex-wrap: nowrap;
+	display: flex;
+	padding: 1vw;
+	overflow: scroll;
+}
+
+.fecha {
+	flex: 1 0 auto;
+	margin: 5px 50px;
+	width: 20%;
+	height: auto;
+	background-image: linear-gradient(#ffcc5d,#ffff99);
+	color: #222222;
+	padding: 5px;
+	border-radius: 1vw;
+	border: solid 2px #222222;
+}
+
+.fecha h4 {
+	text-align: center;
+}
+
+.fecha p {
+	text-align: justify;
+}
+
+.cechini-content {
+	justify-content: flex-end;
+}
+
+.cech-person {
+	background-color: #ffffff;
+	padding: 1vw;	
+	border-radius: 1.5vw 0 0 1.5vw;
+	width: 90%;
+	margin-left: 8%;
+	display: inline-flex;
+	text-align: justify;
+}
+
+.cechini-content img{
+	width: 10rem;
+    border-radius: 100px 100px 0 100px;
+    float: left;
+}
+
+
+/*ScrollBar*/
+
+::-webkit-scrollbar {
+    width: 0.8vw;
+  }
+  
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ff6969;
+    border-radius: 5vw;
+}
+
+/*footer*/
+
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 5px #f8f8f8;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer img {
+	width: 50px;
+	border-radius: 100%;
+}
+
+footer .copy {
+	text-align: center;
+	margin-right: 3vw;
+}
+
+.menu #page_check{
+    color: #000000;
+}

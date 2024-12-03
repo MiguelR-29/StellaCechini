@@ -1,0 +1,31 @@
+*{
+	margin: 3px;
+	padding: 3px;
+	align-items: center;
+}
+form{
+	margin: 0rem,3rem;
+	display: grid;
+	
+}
+h2{
+	 background-image: linear-gradient(to left, yellow, red);
+	 text-align: center;
+	 border: solid;
+}
+input{
+	border: none;
+	border-bottom: solid;
+}
+.alargar{
+	width: 55vw;
+}
+.DIRECCION{
+	width: 94vw;
+}
+.alargar2{
+	width: 25vw;
+}
+.tl{
+	width: 67vw;
+}

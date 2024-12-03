@@ -1,0 +1,232 @@
+paletaDeColores{
+    color: #222222;
+    color: #ffffff;
+    color: #fdffa2;
+    color: #ff6969;
+    color: #d8d8d8;
+    color: #FED966;
+    color: #ffff99;
+    color: #ffcc5d;
+}
+
+*{
+    font-family: "Quicksand", fantasy;
+}
+
+header img{
+    display: flex;
+   margin: auto;
+}
+
+body{
+    margin: 0;
+    background-color: #222222;
+}
+
+header{
+    background-image: url(../SH/bnnr.jpeg);
+    color: #ffffff;
+    text-shadow: 0 0 9px #000000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3vw 0;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    padding: 1vw;
+    background-image: linear-gradient(to left, yellow, red);
+    z-index: 600;
+    position: sticky;
+    border-bottom: solid 5px #f8f8f8;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 15px;
+    height: 100%;
+    transition: 500ms;
+}
+
+.menu a:hover {
+    transition: 500ms;
+    border-left: 1px solid #222222;
+    border-right: 1px solid #222222;
+    color: #000000;
+}
+
+.navMainMenu{
+    margin: 0 3vw 0 2vw;
+}
+
+a {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.MainSection{
+   
+  
+    display:  flex;
+    flex-direction: column;
+}
+
+.MainSection h2{
+    font-size: 2.6vw;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.FeaturedMenu{
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    width: 90%;
+    margin: auto;
+    padding: 1vw;
+}
+
+::-webkit-scrollbar {
+    width: 0.8vw;
+  }
+  
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ff6969;
+    border-radius: 5vw;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 5px #f8f8f8;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+footer .copy {
+    text-align: center;
+    margin-right: 3vw;
+}
+
+.imagenes {
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.download-btn{
+    background-color: #ff6969;
+    border-radius: 10px;
+    color: #000000;
+    margin: 4vw;
+    padding: 1vw;
+    transition: 500ms;
+}
+.download-btn:hover{
+    background-color: #f8f8f8;
+}
+.download-boton{
+    background-color:#fedc76;
+    border-radius: 10px;
+    margin: auto;
+  
+    transition: 500ms;
+    width: 70%;
+}
+.download-boton:hover{
+    background-color: #f8f8f8;
+}
+
+.Titulos{
+    color: #ffffff;
+   text-align: center;
+}
+.seccionA{
+    margin-top: 90px;
+    margin: 7vw;
+}
+
+/* servicios (css) */
+
+.historia {
+	background-color: #ffff99;
+	padding: 1vw;	
+	border-radius: 0vw 1.5vw 1.5vw 0vw;
+	width: 90%;
+	display: inline-flex;
+	text-align: justify;
+    margin-top: 5vw;
+}
+
+.historia img {
+    width: 15rem;
+    border-radius:1vw ;
+    float: left;
+    margin-left: 1vw;
+}
+
+.cechini-content {
+	justify-content: flex-end;
+}
+
+.cech-person {
+	background-color: #ffcc5d;
+	padding: 1vw;	
+	border-radius: 1.5vw 0 0 1.5vw;
+	width: 90%;
+	margin-left: 8%;
+	display: inline-flex;
+	text-align: justify;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    
+   
+}
+.cechini-content img{
+    width: 15rem;
+    border-radius:1vw ;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.menu #page_check{
+    color: #000000;
+}
+
+.j a {
+    color: #ff6969;
+    margin: 10px;
+}

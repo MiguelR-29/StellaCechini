@@ -1,0 +1,217 @@
+paletaDeColores{
+    color: #222222;
+    color: #ffffff;
+    color: #fdffa2;
+    color: #ff6969;
+    color: #d8d8d8;
+}
+
+*{
+    font-family: "Quicksand", fantasy;
+}
+
+header img{
+    display: flex;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    background-color: #222222;
+}
+
+header{
+    background-image: url(../SH/bnnr.jpeg);
+    color: #ffffff;
+    text-shadow: 0 0 9px #000000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3vw 0;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.featuredNew{
+    transition: transform ease-in-out 0.2s;
+
+    border-radius: 1vw;
+
+    margin: auto;
+    margin: 1vw;
+}
+
+.featuredNew:hover{
+    transform: scale(1.5);
+}
+
+.featuredNew div{
+    border-radius: 1vw;
+
+    width: 12vw;
+    height: 18vw;
+    margin: 1vw;
+
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.featuredNew footer{
+    text-align: center;
+    color: #222222;
+}
+
+.leftContent{
+    background-color: #ffffff;
+    padding: 1vw;
+
+    float: left;
+
+    width: 90%;
+    border-radius: 0vw 1.5vw 1.5vw 0vw;
+    margin: 1vw 0vw;
+}
+
+.rightContent{
+    background-color: #ffffff;
+    padding: 1vw;
+
+    float: right;
+
+    width: 90%;
+    
+    border-radius: 1.5vw 0vw 0vw 1.5vw;
+    margin: 1vw 0vw;
+    margin-left: 8%;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    padding: 1vw;
+    background-image: linear-gradient(to left, yellow, red);
+    z-index: 600;
+    position: sticky;
+    border-bottom: solid 5px #f8f8f8;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 15px;
+    height: 100%;
+    transition: 500ms;
+}
+
+.menu a:hover {
+    transition: 500ms;
+    border-left: 1px solid #222222;
+    border-right: 1px solid #222222;
+    color: #000000;
+}
+
+.navMainMenu{
+    margin: 0 3vw 0 2vw;
+}
+
+a {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.MainSection{
+    display:  flex;
+    flex-direction: column;
+}
+
+.MainSection h2{
+    font-size: 2.6vw;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.FeaturedMenu{
+    background-color: #ffffff;
+    border-radius: 1vw;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    width: 90%;
+    margin: auto;
+    padding: 1vw;
+}
+
+::-webkit-scrollbar {
+    width: 0.8vw;
+  }
+  
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #ff6969;
+    border-radius: 5vw;
+}
+
+.new {
+    display: block;
+    background-image: none;
+}
+
+footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 5px #f8f8f8;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+footer .copy {
+    text-align: center;
+    margin-right: 3vw;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+}
+
+.concet {
+    background-color: #ffffff;
+    padding: 1vw;
+    max-width: 800px;
+    text-align: justify;
+    border-radius: 1.5vw;
+}
+
+.menu #page_check{
+    color: #000000;
+}
+
+#incognita {
+    color: #ff6969;
+}
